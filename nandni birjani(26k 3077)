@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+printf ("enter marks"); 
+scanf ("%d",&marks) ;
+printf ("enter income"); 
+scanf ("%d",&income) ;
+if (marks>=80|| income<50000){
+printf("Student qualifiles for scholarship");
+} else 
+printf("Student doesnot qualifiles for scholarship");
+}
+return 0;
+}
